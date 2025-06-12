@@ -1,6 +1,13 @@
-import languages from "../../data/languages"
 
-const singleLanguage = ({id, title, languages}) =>{
-    <button className={language.id === id ? "on" : " "} key={id} onClick={() => setLanguage(languages[id-1])}>{title}</button>
+const SingleLanguage = ({id, title, active, onClick}) =>{
+    return (
+        <button 
+            className={active ? "on" : " "} 
+            onClick={() => onClick(id)}> 
+            {title} 
+        </button>
+    )
 
 }
+
+export default SingleLanguage 
