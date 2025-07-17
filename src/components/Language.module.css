@@ -1,0 +1,23 @@
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button{
+    padding: 1rem;
+    background-color: rgb(32, 105, 232);
+    border-radius: 5px;
+    color: white;
+}
+
+.descriptionContainer{
+    margin: 2rem 0;
+    font-size: larger;
+    text-align: center;
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
